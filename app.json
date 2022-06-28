@@ -1,0 +1,24 @@
+{
+	"name": "MH TempMail",
+	"description": "A python oriented telegram bot for generating temporary Emails Developed By @MutyalaHarshith with API of",
+	"logo": "https://telegra.ph/file/236794ce4bb2213eaae1e.jpg",
+	"repository": "https://github.com/MutyalaHarshith/TeMPMail",
+	"env": {
+        "BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": "BoT_ToKeN"
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
